@@ -1,1 +1,18 @@
+7ecb455 Update GitHub Actions workflow to fetch full history
+9f9dfe6 Updated GitHistory.txt using Challenge Workflow
 85fa38e Update README.md
+8597dcf Update GitHub Actions workflow for challenge
+40a3acc Add checkout action to workflow
+b6bba20 Add GitHub Actions workflow for challenge
+acf3c95 Fix typo in test command verbosity option
+b1b59db Bug fixes for PrimeService.cs
+36b9e74 Merge branch 'main' of https://github.com/RyanABT/CMP307-CI-CD-Test
+d9a5e2d Begin implementation of IsPrime
+c9598fd Add build and test badge to README
+c2f13c9 Add GitHub Actions workflow for build and test
+f7c2fc4 Tested using Git and Unzipping files in command line
+8f6e40a Added IsPrime VS directory
+7cd1072 Add CI badge to README
+be2ca51 Update checkout action version from v4 to v5
+64b3dfd Create CI workflow with basic build steps
+9b27e5c Initial commit
