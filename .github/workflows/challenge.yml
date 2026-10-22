@@ -1,0 +1,16 @@
+name: challenge
+
+on:
+  push:
+  pull_request: 
+    branches: [ main ]
+
+jobs:
+  challenge:
+    
+    runs-on:
+      windows-latest
+
+    steps:
+    - name: Write File
+      run: git log --oneline > GitHistory.txt
