@@ -12,5 +12,6 @@ jobs:
       windows-latest
 
     steps:
+    - uses: actions/checkout@v4
     - name: Write File
       run: git log --oneline > GitHistory.txt
