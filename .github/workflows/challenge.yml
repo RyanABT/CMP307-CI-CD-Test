@@ -12,6 +12,12 @@ jobs:
       windows-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Write File
-      run: git log --oneline > GitHistory.txt
+      run: | 
+        git log --oneline > GitHistory.txt
+        git config --global user.name "Ryan De Necker"
+        git config --global user.email "2606083@uad.ac.uk"
+        git add GitHistory.txt
+        git commit -m "Updated GitHistory.txt using Challenge Workflow"
+        git push
